@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Js pruebas</title>
+</head>
+<body>
+    
+        <div class="calculator-container">
+            <h1>Calculadora de Cuotas</h1>
+    
+            <!-- Formulario para ingresar los datos -->
+            <form id="loan-form">
+                <div class="form-group">
+                    <label for="loanAmount">Valor del vehículo($):</label>
+                    <input type="number" id="loanAmount" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="interestRate">Tasa de interés anual (%):</label>
+                    <input type="number" id="interestRate" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="loanTerm">Número de cuotas:</label>
+                    <input type="number" id="loanTerm" required>
+                </div>
+    
+                <button type="submit">Calcular</button>
+            </form>
+    
+            <!-- Resultado -->
+            <div id="result" class="result">
+                <h2>Resultado:</h2>
+                <p><strong>Cuota mensual:</strong> $<span id="monthlyPayment">0.00</span></p>
+            </div>
+        </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

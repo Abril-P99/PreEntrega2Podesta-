@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://images.pexels.com/photos/3541743/pexels-photo-3541743.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Estilo para el contenedor principal */
+.calculator-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 2px;
+    box-shadow: 0 4px 10px rgba(23, 94, 17, 0.5);
+    max-width: 400px;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(10, 248, 10) 1px 1px 10px;
+}
+
+/* Títulos */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el formulario */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #0f8000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #61ff06;
+}
+
+/* Estilo para el resultado */
+.result {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.result p {
+    font-size: 18px;
+    font-weight: bold;
+}
