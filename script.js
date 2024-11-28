@@ -38,7 +38,7 @@ document.getElementById('loan-form').addEventListener('submit', function(event) 
     alert(`Cálculo realizado:\nValor del vehículo: $${calculation.loanAmount}\nTasa de interés anual: ${calculation.interestRate}%\nNúmero de cuotas: ${calculation.loanTerm}\nCuota mensual: $${calculation.monthlyPayment}`);
 
     // Preguntar al usuario si desea realizar otro cálculo
-    const anotherCalculation = prompt('¿Desea realizar otro cálculo? (sí/no)').toLowerCase();
+    const anotherCalculation = prompt('¿Desea realizar otro cálculo? Responder Si o No').toLowerCase();
     if (anotherCalculation !== 'sí') {
         mostrarHistorial();
     }
